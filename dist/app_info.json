@@ -1,0 +1,71 @@
+{
+  "title": "Scrum Vision",
+  "description": "Scrum Vision es una innovadora iniciativa diseñada para revolucionar el análisis del rugby en la Liga de Rugby de Bogotá. Nuestro propósito principal es ofrecer un enfoque único y avanzado para estudiar, entender y optimizar el rendimiento de los equipos y jugadores, basándonos en datos descriptivos y cuantitativos.",
+  "mision": "Potenciar a los equipos y entrenadores con herramientas tecnológicas que transformen los datos en decisiones estratégicas. Scrum Vision no solo captura estadísticas; interpretamos el juego desde una perspectiva táctica y técnica, brindando información valiosa que mejora el rendimiento en el campo y fortalece la experiencia del rugby como deporte.",
+  "made_us": [
+    {
+      "title": "Registrar Eventos Clave del Partido",
+      "content": "Desde scrums, lineouts y tackles hasta anotaciones, cada momento importante es rastreado y almacenado con precisión."
+    },
+    {
+      "title": "Analizar Datos Descriptivos",
+      "content": "Utilizamos datos para identificar patrones de juego, evaluar métricas de rendimiento y comparar resultados históricos."
+    },
+    {
+      "title": "Visualización de Datos",
+      "content": "Generamos gráficos, estadísticas interactivas y reportes personalizados que permiten a entrenadores y jugadores tomar decisiones informadas."
+    },
+    {
+      "title": "Optimización de Estrategias",
+      "content": "Ofrecemos recomendaciones basadas en datos para ajustar tácticas de equipo, mejorar la comunicación en el campo y explotar las debilidades del rival."
+    }
+  ],
+  "tecnology": [
+    {
+      "title":"Analisis de video",
+      "content":"Herramientas avanzadas de seguimiento que reconocen y etiquetan automáticamente eventos clave."
+    },
+    {
+      "title":"Inteligencia Artificial",
+      "content":"Algoritmos que aprenden del juego para predecir posibles resultados y tendencias futuras."
+    },
+    {
+      "title":"Accesibilidad",
+      "content":"Una plataforma fácil de usar que permite a cualquier equipo acceder y beneficiarse del análisis de datos, independientemente de su nivel técnico."
+    }
+  ],
+  "vision":"Soñamos con una comunidad de rugby más fuerte, donde cada jugador, entrenador y aficionado tenga acceso a información valiosa para elevar el nivel del deporte. Scrum Vision busca ser el puente entre el rugby tradicional y las oportunidades que ofrecen las tecnologías emergentes.",
+  
+  "url": "https://devem-software.gtihub.io/scrumvision",
+  "version": "1.0.0-alpha",
+  "author": "Devem Software",
+  "license": "MIT",
+  "issues": "devem.software@gmail.com",
+  "bugs": "devem.software@gmail.com",
+  "tecnologies": [
+    {
+      "title": "HTML",
+      "url": "https://developer.mozilla.org/es/docs/Web/HTML",
+      "use": "HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+    },
+    {
+      "title": "CSS",
+      "url": "https://developer.mozilla.org/es/docs/Web/CSS",
+      "use": "Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML",
+      "logo": "https://raw.githubusercontent.com/CSS-Next/logo.css/refs/heads/main/primary/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "url": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+      "use": "JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web",
+      "logo": "https://raw.githubusercontent.com/voodootikigod/logo.js/refs/heads/master/js.png"
+    },
+    {
+      "title": "Vue.js",
+      "url": "https://vuejs.org/",
+      "use": "Vuejs es un marco accesible, performante y versátil para construir interfaces de usuario web.",
+      "logo": "https://raw.githubusercontent.com/vuejs/art/366e8fad63e6210fcbc610f06ca56fcfbf30ed11/logo.svg"
+    }
+  ]
+}
