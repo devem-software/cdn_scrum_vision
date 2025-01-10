@@ -9,14 +9,14 @@ def load(file_name: str, encoding: str = "utf-8") -> list:
     return data
 
 
-def save(data: list, file_name: str, encoding: str = "utf-8") -> None:
+def save(data: list, file_name: str, encoding: str = "utf-8", indent: int | None = 4) -> None:
     if not isinstance(data, (list, dict)):
         raise ValueError(
             "Los datos a guardar deben ser una lista o un diccionario.")
 
     try:
         with open(f"{file_name}.json", "w", encoding=encoding) as file:
-            json.dump(data, file, ensure_ascii=False, indent=4)
+            json.dump(data, file, ensure_ascii=False, indent=indent)
     except Exception as e:
         print(f"Error al guardar los datos: {e}")
 

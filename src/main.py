@@ -134,6 +134,7 @@ opt.item("modality", normalized_clean, modalities, file_clean)
 opt.item("category", normalized_clean, categories, file_clean)
 opt.teams(normalized_clean, teams, file_clean)
 
+opt.minify(file_clean)
 
 info.count_empty_by_item('modality', file_clean, show_data=1)
 info.count_empty_by_item('category', file_clean, show_data=1)
