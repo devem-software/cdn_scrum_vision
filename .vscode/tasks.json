@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Abrir consola externa",
+            "type": "shell",
+            "command": "start cmd",
+            "problemMatcher": []
+        },
+        {
+            "label": "testing",
+            "type": "shell",
+            "command": "pytest -con"
+        }
+    ]
+}

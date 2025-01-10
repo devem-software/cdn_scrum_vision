@@ -1,0 +1,19 @@
+[project]
+name = "cdn_srum_vision"
+version = "0.0.1-alpha"
+description = "data for scrumvision"
+authors = [{ name = "Edwin Marroquin", email = "devem-software@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "google-api-python-client (>=2.157.0,<3.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "setuptools (>=75.7.0,<76.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

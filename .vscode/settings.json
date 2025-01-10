@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt", // Cambiar según el sistema
+    "workbench.startupEditor": "none",
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+}
